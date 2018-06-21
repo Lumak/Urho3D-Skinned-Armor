@@ -1,0 +1,4 @@
+<animation>
+    <trigger normalizedtime="0.4" type="String" value="weaponDmgON" />
+    <trigger normalizedtime="0.9" type="String" value="weaponDmgOFF" />
+</animation>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<node id="9">
+    <attribute name="Is Enabled" value="true" />
+    <attribute name="Name" value="BackLocator" />
+    <node id="13">
+        <attribute name="Is Enabled" value="true" />
+        <attribute name="Name" value="GreatswordLocator" />
+        <attribute name="Tags" />
+        <attribute name="Position" value="-2.52264 1.71661e-05 22.4404" />
+        <attribute name="Rotation" value="1 0 0 0" />
+        <attribute name="Scale" value="1 1 1" />
+        <attribute name="Variables" />
+        <node id="14">
+            <attribute name="Is Enabled" value="true" />
+            <attribute name="Name" value="Weapon" />
+            <attribute name="Tags" />
+            <attribute name="Position" value="0 0 0" />
+            <attribute name="Rotation" value="1 0 0 0" />
+            <attribute name="Scale" value="100 100 100" />
+            <attribute name="Variables" />
+            <component type="StaticModel" id="14">
+                <attribute name="Model" value="Model;SkinnedArmor/Maria/Sword.mdl" />
+                <attribute name="Material" value="Material;SkinnedArmor/Maria/Materials/MariaMat1.xml" />
+                <attribute name="Cast Shadows" value="true" />
+            </component>
+			<component type="RigidBody" id="15">
+				<attribute name="Physics Rotation" value="0.699731 -0.699731 -0.101865 0.101865" />
+				<attribute name="Physics Position" value="-0.0881597 1.44128 0.200254" />
+				<attribute name="Mass" value="1" />
+				<attribute name="Is Kinematic" value="true" />
+				<attribute name="Is Trigger" value="true" />
+                <attribute name="Collision Layer" value="16" />
+			</component>
+			<component type="CollisionShape" id="17">
+				<attribute name="Size" value="0.25 0.15 1.2" />
+				<attribute name="Offset Position" value="0 0 -0.65" />
+			</component>
+        </node>
+    </node>
+</node>
